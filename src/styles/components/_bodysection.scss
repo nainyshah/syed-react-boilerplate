@@ -1,0 +1,38 @@
+#home-section {
+  background: url(../images/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 870px;
+}
+
+#home-section .home-inner {
+  padding-top: 120px;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 870px;
+  background: rgba($color: #000000, $alpha: 0.7);
+}
+.list-group {
+  max-height: 250px;
+  margin-bottom: 5px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+// #footer-section {
+//   bottom: 0;
+//   width: 100%;
+// }
+.alert {
+  height: 30px;
+  padding: 0.1rem 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.list-group-item {
+  word-break: break-all;
+}
