@@ -51,7 +51,7 @@ class SampleApp extends React.Component {
 }
 
 // Stateless functional component
-IndecisionApp.defaultProps = {
+SampleApp.defaultProps = {
   options: [],
 };
 
